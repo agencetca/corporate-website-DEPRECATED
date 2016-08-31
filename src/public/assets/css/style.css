@@ -1,0 +1,45 @@
+.body {
+    padding:60px 0 0 0;
+    overflow-y:hidden;
+}
+
+.main {
+    overflow-y:scroll;
+    height:500px;
+}
+
+.header-spacer {
+    margin-top:50px;
+}
+
+ul > li {
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0 0 0;
+    background-color: #222;
+}
+
+.footer > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer > ul > li {
+    padding: 0 15px 0 15px;
+}
+
+.footer > ul > li:hover {
+    color: white;
+}
+
+
+/*BOOTSTRAP PERSONALIZATION*/
+.glyphicon-heart {
+    color: pink;
+}
